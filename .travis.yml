@@ -1,5 +1,4 @@
-dist: xenial
+dist: bionic
 install: make get-deps
-compiler:
-  - clang
-  - gcc
+compiler: gcc
+install: make get-deps flex
